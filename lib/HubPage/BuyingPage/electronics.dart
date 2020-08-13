@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
+import 'package:projectBiyt/HubPage/BuyingPage/items_page.dart';
 
 class Electronics extends StatefulWidget {
   @override
@@ -81,6 +82,12 @@ class _ElectronicsState extends State<Electronics> {
                     padding: const EdgeInsets.all(4.0),
                     child: Card(
                       child: new ListTile(
+                        onTap: () {
+                          Navigator.push(
+                              context,
+                              MaterialPageRoute(
+                                  builder: (context) => BuyingITems()));
+                        },
                         subtitle: Text("subtitle"),
                         leading: CircleAvatar(
                           child: Image.asset(
