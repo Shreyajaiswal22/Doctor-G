@@ -1,4 +1,4 @@
-name: projectBiyt
+name: booking
 description: A new Flutter project.
 
 # The following line prevents the package from being accidentally published to
@@ -28,9 +28,11 @@ dependencies:
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^0.1.3
+  flutter_bloc: ^6.0.5
+  bloc: ^6.0.3
+  equatable: ^1.2.5
+  flappy_search_bar: ^1.7.2
   font_awesome_flutter: ^8.8.1
-  buttons_tabbar: ^1.0.0+1
-
 
 dev_dependencies:
   flutter_test:
@@ -49,17 +51,18 @@ flutter:
 
   # To add assets to your application, add an assets section, like this:
   assets:
-    - assets/111.jpg
-    - assets/112.jpg
-    - assets/113.jpg
-    - assets/13.jpg
-    - assets/imp7.jpg
-    - assets/imp8.jpg
-    - assets/16.jpg
-    - assets/11.jpg
-    - assets/12.jpg
-    - assets/14.jpg
-    - assets/15.jpg
+    - assets/brain.jpg
+    - assets/eye.jpg
+    - assets/joint.png
+    - assets/lungs.jpg
+    - assets/stomach.jpg
+    - assets/viral flu.png
+    - assets/Strange.jpg
+    - assets/Julia.jpg
+    - assets/David.jpg
+    - assets/appoinment.png
+    - assets/user.png
+
 
   #   - images/a_dot_ham.jpeg
 
