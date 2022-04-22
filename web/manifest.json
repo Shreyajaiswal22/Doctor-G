@@ -1,6 +1,6 @@
 {
-    "name": "projectBiyt",
-    "short_name": "projectBiyt",
+    "name": "booking",
+    "short_name": "booking",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
